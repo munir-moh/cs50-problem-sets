@@ -36,7 +36,6 @@ Either before or after you implement convert in working.py, additionally impleme
 pytest test_working.py"""
 
 import re
-import sys
 
 def main():
     print(convert(input("Hours: ")))
