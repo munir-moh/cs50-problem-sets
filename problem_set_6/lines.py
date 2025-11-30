@@ -7,7 +7,7 @@ import sys
 import os
 
 if len(sys.argv) != 2:
-    sys.exit()
+    sys.exit("Too few command-line arguments" if len(sys.argv) < 2 else "Too many command-line arguments")
 
 filename = sys.argv[1]
 
